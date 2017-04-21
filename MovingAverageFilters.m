@@ -66,5 +66,5 @@ title(['Simple Moving Average (tsmovavg) w=' num2str(w_size)]),grid on,
 subplot(326),plot(ema),xlabel('x'),ylabel('y'),
 title(['Exponential Moving Average (tsmovavg) lag=' num2str(lags)]),grid on,
 
-savefig(fig,'adaptive_filters.fig');
+savefig(fig,'moving_average_filters.fig');
 
